@@ -19,10 +19,13 @@
   "type": "module",
   "dependencies": {
     "@aws-sdk/client-bedrock-runtime": "^3.1076.0",
-    "@aws-sdk/client-eventbridge": "^3.1076.0"
+    "@aws-sdk/client-eventbridge": "^3.1076.0",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "fluent-ffmpeg": "^2.1.3"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.162",
+    "@types/fluent-ffmpeg": "^2.1.28",
     "esbuild": "^0.28.1",
     "typescript": "^6.0.3"
   }
