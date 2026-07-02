@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"build": "tsc",
+		"build": "esbuild src/index.ts --bundle --platform=node --target=node22 --external:@aws-sdk/* --outfile=dist/index.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],
